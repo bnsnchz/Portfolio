@@ -1,11 +1,48 @@
 body {
-    background-color: #3b3b3b;
+    background-color: #3F4650;
+    margin:auto;
+}
+
+.intro{
+  margin:auto;
+  width:50vw;
+  height:80vh;
+  margin-top:20vh;
+}
+
+
+.bio{
+  max-width:960px;
+  width:50vw;
+  text-align: center;
+  color:white;
+  margin:auto;
+
 }
 
 .title {
     color: white;
     font-size: 25vh;
-    position: fixed;
-    right: 39%;
-    top: 10%;
+    text-align: center;
+    margin:auto;
+}
+
+.name{
+  color:white;
+  font-size: 7vh;
+  text-align: center;
+  margin:auto;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
