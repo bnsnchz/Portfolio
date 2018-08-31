@@ -1,48 +1,66 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
 body {
-    background-color: #3F4650;
-    margin:auto;
+    background-color: #2A2826;
+    margin: auto;
 }
 
-.intro{
-  margin:auto;
-  width:50vw;
-  height:80vh;
-  margin-top:20vh;
+.intro {
+    margin: auto;
+    width: 50vw;
+    height: 80vh;
+    margin-top: 20vh;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
 }
 
+.bio {
+    max-width: 960px;
+    width: 50vw;
+    text-align: center;
+    color: white;
+    margin: auto;
+    z-index: 1;
+}
 
-.bio{
-  max-width:960px;
-  width:50vw;
-  text-align: center;
-  color:white;
-  margin:auto;
+.wp {
+    z-index: -1;
+    position: absolute;
+    top: -2%;
+    right: -8%;
+    height: 100vh;
+}
 
+.bioText {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    z-index: 1;
 }
 
 .title {
     color: white;
     font-size: 25vh;
     text-align: center;
-    margin:auto;
+    margin: auto;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
-.name{
-  color:white;
-  font-size: 7vh;
-  text-align: center;
-  margin:auto;
+.name {
+    color: white;
+    font-size: 7vh;
+    text-align: center;
+    margin: auto;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
 ::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    width: 0px;
+    background: transparent;
 }
-/* optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
