@@ -22,8 +22,8 @@ componentDidMount(){
       <div className="App">
         <div className="main">
           <div className="intro"style={wallPaper}>
-            <h1 className="title animated fadeInUp">Hi.</h1>
-            <h2 className="name animated fadeInUpBig">I'm Ben</h2>
+            <h1 className="title animated fadeInDown">Hi.</h1>
+            <h2 className="name animated fadeInDownBig">I'm Ben</h2>
           </div>
           <div className="bio">
             <img className="logo" src="./assets/images/logo.png" alt="logo" />
@@ -39,7 +39,6 @@ componentDidMount(){
             <a href="https://github.com/bnsnchz"><img className="gitHub" src="./assets/images/GitHub.png" alt="Github"/></a>
             <a href="mailto:bnsnchzdev@gmail.com?Subject=Job%20Inquiry"><img className="mail" src="./assets/images/Mail.png" alt="mail" /></a>
           </div>
-
         </footer>
       </div>
     );
