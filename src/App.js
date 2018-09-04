@@ -32,7 +32,7 @@ class App extends Component {
             <p className="bioText">I'm a MERN stack developer based out of Los Angeles, CA. A passionate, problem solving web developer who values the listening aspect of communication as much as conversing. Loves design because of the opportunity to dissect items and reassemble for everyone's benefit. Lifetime learner and ready to help others make something great.</p>
           </div>
           <div className="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-            <div className="modal-dialog" role="document">
+            <div className="modal-dialog modal-lg" role="document">
               <div className="modal-content">
                 <div className="modal-body">
                   <h3 className="resumeName">Ben Sanchez</h3>
