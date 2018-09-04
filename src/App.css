@@ -40,10 +40,17 @@ body {
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
+.projectTitle{
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
 .footer{
     text-align: center;
     color:white;
     font-family: 'Roboto Condensed', sans-serif;
+    padding:2%;
 }
 
 .footer1{
@@ -69,6 +76,23 @@ body {
 .mail{
     height:5vh;
     margin-left:1%;
+}
+
+.resume{
+    height:5vh;
+    margin-left:1%;
+}
+
+.resumeName{
+    text-align: center;
+}
+
+.resumeInfo{
+    text-align: center;
+}
+
+.resumeLinks{
+    text-align: center;
 }
 
 ::-webkit-scrollbar {
