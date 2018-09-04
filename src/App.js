@@ -37,7 +37,7 @@ class App extends Component {
                 <div className="modal-body">
                   <h3 className="resumeName">Ben Sanchez</h3>
                   <p className="resumeInfo"><a href="mailto:bnsnchzdev@gmail.com?Subject=Job%20Inquiry">bnsnchzdev@gmail.com</a> | 951-990-2607 | Los Angeles, California</p>
-                  <p className="resumeLinks"><a href="https://www.linkedin.com/in/bnsnchz/" target="_blank" >LinkedIn</a> | <a href="https://github.com/bnsnchz" target="_blank" >GitHub</a></p>
+                  <p className="resumeLinks"><a href="https://www.linkedin.com/in/bnsnchz/" target="_blank" ><u>LinkedIn</u></a> | <a href="https://github.com/bnsnchz" target="_blank" ><u>GitHub</u></a></p>
 
                   <p><b><u>OBJECTIVE</u></b></p>
                   <p>Entry-level full-time position in web development, with a special interest in Front-end React.js development.</p> 
@@ -46,14 +46,14 @@ class App extends Component {
                   <p><b><u>PROJECTS</u></b></p>
                   <ul>
                     <p><b><u>Ethr</u></b><br/>
-                    <a href="https://ethr.herokuapp.com" target="_blank"><u>https://ethr.herokuapp.com</u></a> <a href="https://github.com/bnsnchz/ethr" target="_blank"><u>https://github.com/bnsnchz/ethr</u></a> </p> 
+                    <a href="https://ethr.herokuapp.com" target="_blank"><u>Live Site</u></a> <a href="https://github.com/bnsnchz/ethr" target="_blank"><u>GitHub</u></a> </p> 
                   <li>Review website centered on video games, allowing a user to create an account and post reviews.</li> 
                   <li>Main front end JS, and Handlebars and MYSQL developer in group of 4 on 1-week deadline.</li>
                   <li>Built MYSQL database to save user data and review posts.</li>
                   </ul>
                   <ul>
                     <p><b><u>Look & Cook</u></b><br/>
-                    <a href="https://lookncook.herokuapp.com" target="_blank">https://lookncook.herokuapp.com</a>  <a href="https://github.com/bnsnchz/lookncook" target="_blank">https://github.com/bnsnchz/lookncook</a>
+                    <a href="https://lookncook.herokuapp.com" target="_blank"><u>Live Site</u></a>  <a href="https://github.com/bnsnchz/lookncook" target="_blank"><u>GitHub</u></a>
                     </p>
                   <li>React based interactive recipe website.</li>
                   <li>Lead developer in group of 4 working in full MERN stack app on 1-week deadline.</li>
@@ -82,12 +82,33 @@ class App extends Component {
           </div>
           <div className="Projects">
             <h2 className="projectTitle"><u>These are some of the projects I've contributed to:</u></h2>
+              <div className="project">
+                <img className="projImg" src="./assets/images/ethr.png" alt="ethr" />
+                  <ul className="projDesc">
+                    <h3><b><u>Ethr</u></b><br/>
+                    <a href="https://ethr.herokuapp.com" target="_blank"><u>Live Site</u></a> <a href="https://github.com/bnsnchz/ethr" target="_blank"><u>GitHub</u></a> </h3> 
+                  <li>Review website centered on video games, allowing a user to create an account and post reviews.</li> 
+                  <li>Main front end JS, and Handlebars and MYSQL developer in group of 4 on 1-week deadline.</li>
+                  <li>Built MYSQL database to save user data and review posts.</li>
+                  </ul>
+              </div>
+              <div className="project">
+                <img className="projImg" src="./assets/images/lookncook.png" alt="lookncook" />
+                <ul className="projDesc">
+                    <h3><b><u>Look & Cook</u></b><br/>
+                    <a href="https://lookncook.herokuapp.com" target="_blank"><u>Live Site</u></a>  <a href="https://github.com/bnsnchz/lookncook" target="_blank"><u>GitHub</u></a>
+                    </h3>
+                  <li>React based interactive recipe website.</li>
+                  <li>Lead developer in group of 4 working in full MERN stack app on 1-week deadline.</li>
+                  <li>Created and maintained React components and Mongo Database.</li>
+                  <li>In charge of all CSS and REGEX formulas for timer and form submit functionality.</li>
+                </ul>
+              </div>
 
           </div>
         </div>
         <footer className="footer">
           <p className="footer1">2018 Ben Sanchez</p>
-          <br />
           <p className="footer2">Connect With Me:</p>
           <div className="social">
             <a href="https://www.linkedin.com/in/bnsnchz/"><img title="LinkedIn" className="linkedIn" src="./assets/images/LinkedIn.png" alt="LinkedIn" /></a>
