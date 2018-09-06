@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage":"https://bnsnchz.github.io/Portfolio",
+  "homepage": "https://bnsnchz.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
