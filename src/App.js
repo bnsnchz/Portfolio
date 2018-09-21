@@ -29,7 +29,7 @@ class App extends Component {
           </div>
           <div className="bio">
             <img className="logo" src="./assets/images/logo.png" alt="logo" />
-            <p className="bioText">I'm a MERN stack developer based out of Los Angeles, CA. A passionate, problem solving web developer who values the listening aspect of communication as much as conversing. Loves design because of the opportunity to dissect items and reassemble for everyone's benefit. Lifetime learner and ready to help others make something great.</p>
+            <p className="bioText">I’m a MERN stack developer based out of Los Angeles, CA. I’m passionate, problem solving web developer who values the listening aspect of communication as much as conversing. I love design because of the opportunity to dissect items and reassemble for everyone's benefit. I’m a lifetime learner and ready to help others make something great.</p>
           </div>
           <div className="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div className="modal-dialog modal-lg" role="document">
@@ -77,6 +77,40 @@ class App extends Component {
                 <div className="modal-footer">
                   <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="tech">
+            <div className="techDesc">
+              <h3 className="techDescHeader"><u>I program Using:</u></h3>
+            </div>
+            <div className="techImages">
+              <div className="techImgDiv">
+                <img src="./assets/images/html.png" className="techImg" alt="HTML" />
+              </div> 
+              <div className="techImgDiv">
+                <img src="./assets/images/bootstrap.png" className="techImg" alt="Bootstrap" />
+              </div>
+              <div className="techImgDiv">
+                <img src="./assets/images/css.png" className="techImg" alt="CSS" />
+              </div>
+              <div className="techImgDiv">
+                <img src="./assets/images/js.jpg" className="techImg" alt="JS" />
+              </div>
+              <div className="techImgDiv">
+                <img src="./assets/images/react.png" className="techImg" alt="React" />
+              </div>   
+              <div className="techImgDiv">
+                <img src="./assets/images/node.png" className="techImg" alt="Node" />
+              </div>          
+              <div className="techImgDiv">
+                <img src="./assets/images/git.png" className="techImg" alt="GIT" />
+              </div>                                      
+              <div className="techImgDiv">
+                <img src="./assets/images/mongo.png" className="techImg" alt="Mongo" />
+              </div>              
+              <div className="techImgDiv">
+                <img src="./assets/images/mysql.png" className="techImg" alt="MySQL" />
               </div>
             </div>
           </div>

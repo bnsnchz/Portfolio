@@ -42,6 +42,44 @@ body {
     margin: auto;
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
+
+.tech{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    max-width: 960px;
+    text-align: center;
+    margin:auto;
+    height:50vh;
+}
+
+.techImages{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    /* max-width: 50%; */
+    text-align: center;
+    margin: auto;
+}
+
+.techDesc{
+    color:white;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.techDescHeader{
+    width:150%;
+    margin:auto;
+    text-align: center;
+
+}
+
+.techImg{
+    height:15vh;
+    padding:5%;
+}
+
 .Projects{
     margin:auto;
     max-width: 80vw;
@@ -122,4 +160,44 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
+}
+
+@media (max-width:1080px) {
+    .logo{
+        width:50%;
+    }
+    .techImg{
+        height:10vh;
+    }
+}
+
+@media (max-width:640px){
+    .logo{
+        width:50%;
+    }
+
+    .bio{
+        width:95%;
+    }
+    .tech{
+        margin-right: 6%;
+    }
+
+    .techImg{
+        height:7vh;
+    }
+
+    .projectTitle{
+        width:100%;
+    }
+
+    .projImg{
+        display:none;
+    }
+
+    .projDesc{
+        width:100%;
+        float:none;
+    }
+
 }
